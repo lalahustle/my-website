@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="This website demonstrates HTML links and semantic navigation. It uses HTML only, with no CSS or JavaScript."
+    />
+    <title>Services | My Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="../projects.html">Projects</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Services</h2>
+      <p>This page describes example services.</p>
+      <ul>
+        <li>Website planning</li>
+        <li>HTML page structure</li>
+        <li>Link testing</li>
+      </ul>
+      <p><a href="../index.html">Return to the homepage</a></p>
+      <p><a href="#service-details">Jump to service details</a></p>
+      <p>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Creating_links"
+          target="_blank"
+          noopener
+          rel="noreferrer"
+          >Read the MDN guide to creating links</a
+        >
+      </p>
+
+      <section id="service-details">
+        <h2>Service details</h2>
+        <p>
+          This page is inside the pages folder, so it uses ../ to link back to
+          files in the main folder.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>HTML-only website for a links assignment.</p>
+    </footer>
+  </body>
+</html>
